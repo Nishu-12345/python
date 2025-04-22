@@ -23,3 +23,4 @@ c1.getinfo()
 c2.getinfo()
 c1.deposite(323455)
 c2.deposite(1000)
+# pip install google.generativeai
