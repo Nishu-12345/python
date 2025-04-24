@@ -12,19 +12,19 @@ for i in range (1, 85):
     if(i%10 == 0):
         print(space +"Happy birthday")
     elif(i%9 == 0):
-        print(space +"💖\n") 
-    elif(i%8 == 0):
-        print(space +"✨")
-    elif(i%7 == 0):
-        print(space +"🍬")  
-    elif(i%6 == 0):
-        print(space +"🍫")   
-    elif(i%5 == 0):
-        print(space+"🌹")
-    elif(i%4 == 0):
-        print(space+"💝")  
-    elif(i%3 == 0):
-        print(space +"🥰")   
+        print(space +"💖🎉🍬🍫🌹") 
+    # elif(i%8 == 0):
+    #     print(space +"✨")
+    # elif(i%7 == 0):
+    #     print(space +"🍬")  
+    # elif(i%6 == 0):
+    #     print(space +"🍫")   
+    # elif(i%5 == 0):
+    #     print(space+"🌹")
+    # elif(i%4 == 0):
+    #     print(space+"💝")  
+    # elif(i%3 == 0):
+    #     print(space +"🥰")   
     else:
         print(space +"🎉HAPPY BIRTHDAY TO YOU")       
     time.sleep(0.1)   
