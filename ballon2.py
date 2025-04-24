@@ -46,16 +46,16 @@ def float_balloons():
     for i in range(8):
         clear()
         print("\n" * random.randint(1, 5))
-        space = " " * random.randint(0, 30)
+        space = " " * random.randint(0, 10)
         print(f"{space}{random.choice(balloons)}")
         time.sleep(0.4)
 
 # 🎊 Confetti rain animation
 def confetti_rain():
-    for _ in range(10):
+    # for _ in range(10):
         clear()
-        for _ in range(15):
-            space = " " * random.randint(0, 40)
+        for _ in range(10):
+            space = " " * random.randint(0, 10)
             print(space + random.choice(confetti))
         time.sleep(0.2)
 
@@ -77,10 +77,10 @@ def play_melody():
         winsound.Beep(note, duration)
 
 # 🎉 Celebration messages
-for _ in range(25):
+for _ in range(15):
     clear()
     print("\n" * random.randint(1, 5))
-    space = " " * random.randint(0, 35)
+    space = " " * random.randint(0, 15)
     print(space + random.choice(emojis) + "  " + random.choice(messages))
     time.sleep(0.3)
 
@@ -97,13 +97,10 @@ confetti_rain()
 # 🎶 Song lyric display
 def song_lyric():
     lyric = [
-        "💞 \"I have died every day waiting for you...\"",
-        "💫 \"Darling, don't be afraid, I have loved you...\"",
-        "🌙 \"For a thousand years...\"",
-        "🎵 \"I'll love you for a thousand more.\""
+        "💞 \"I have died every day waiting for you...\"","💫 \"Darling, don't be afraid, I have loved you...\"","🌙 \"For a thousand years...\"","🎵 \"I'll love you for a thousand more.\""
     ]
     for line in lyric:
-        print("\n" + line.center(80))
+        print("\n" + line.center(10))
         time.sleep(2)
 
 # 🎉 Final sequence

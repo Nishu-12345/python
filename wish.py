@@ -28,17 +28,17 @@ messages = [
 ]
 
 # 🎊 Animation loop
-for i in range(30):
-    clear()
+for i in range(10):
+    # clear()
     print("\n" * random.randint(1, 5))  # Random top padding
-    space = " " * random.randint(0, 40)  # Random horizontal space
+    space = " " * random.randint(0, 10)  # Random horizontal space
     print(space + random.choice(emojis) + "  " + random.choice(messages))
-    time.sleep(0.3)
+    # time.sleep(0.5)
 
 # 🎉 Final message
-clear()
+# clear()
 print("\n" * 3)
 print("💖✨🎂🎈🎉🎁 " * 3)
-print(f"\n        HAPPY BIRTHDAY, {name.upper()}! 🎉💖")
+print(f"         HAPPY BIRTHDAY, {name.upper()}!")
 print("💖✨🎂🎈🎉🎁 " * 3)
 print("\n" * 2)

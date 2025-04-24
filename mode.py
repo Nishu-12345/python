@@ -5,9 +5,9 @@ def moodmate():
     if "sad" in mood or "tired" in mood:
         print("MoodMate: I'm sending you a big virtual hug. 🫂💖 You're not alone.")
     elif "happy" in mood or "good" in mood:
-        print("MoodMate: Yay! I’m so glad you’re feeling good. Keep shining 🌞")
+        print("MoodMate: Yay! I'm so glad you're feeling good. Keep shining 🌞")
     elif "angry" in mood or "frustrated" in mood:
-        print("MoodMate: Deep breaths, love. You’ve got this. Let’s handle one thing at a time. 💪")
+        print("MoodMate: Deep breaths, love. You've got this. Let's handle one thing at a time. 💪")
     elif "anxious" in mood or "nervous" in mood:
         print("MoodMate: Inhale... exhale... you're stronger than you feel. 🌷 I'm with you.")
     elif"scared" in mood or "nervous" in mood:
