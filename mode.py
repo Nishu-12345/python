@@ -10,7 +10,7 @@ def moodmate():
         print("MoodMate: Deep breaths, love. You've got this. Let's handle one thing at a time. 💪")
     elif "anxious" in mood or "nervous" in mood:
         print("MoodMate: Inhale... exhale... you're stronger than you feel. 🌷 I'm with you.")
-    elif"scared" in mood or "nervous" in mood:
+    elif "scared" in mood or "nervous" in mood:
         print("MoodMate: What, happen to you, dear.... don't scare because you're strong and I'm with you. ♾️")   
     else:
         print("MoodMate: I might not understand perfectly, but I care. 💛")
