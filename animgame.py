@@ -13,7 +13,7 @@ def print_welcome():
                                                                       
 """)
     print("✨ Welcome to the Number Guessing Game! ✨")
-    print("I'm thinking of a number between 1 and 100...\n")
+    print("I'm thinking of a number between 1 and 10...\n")
 
 # Dramatic cheat mode activation
 def activate_cheat_mode(secret_number):
