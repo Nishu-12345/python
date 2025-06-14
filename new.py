@@ -1,4 +1,4 @@
-from turtle import*
+from turtle import *
 import colorsys
 speed(1000)
 bgcolor("black")

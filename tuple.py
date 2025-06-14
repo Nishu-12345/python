@@ -24,7 +24,9 @@ stu ={"name":"nishu", "age": 16}
 # # print(stu["age"])
 # # print(stu.get("age"))
 # # print(stu.get("xyz", "404"))
-# # modification tuple
+
+
+# modification tuple
 # # stu["age"]= 16
 # # print(stu)
 # # del stu["age"]
